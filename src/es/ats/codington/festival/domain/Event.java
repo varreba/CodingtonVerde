@@ -9,6 +9,18 @@ public class Event {
 
 	// Attributes
 
+	  //Encapsulated data fields for EVENT class 
+	
+			private int idEvent;
+			private String eventName;
+			private String description;
+			private int duration;
+			private String eventType;
+			private String schedule;
+			
+	
+	
+	
 	     // Declaring  People and Places variables. Both classes are now composed in People
 	
 		private People people;
@@ -32,14 +44,7 @@ public class Event {
 	    	 this.places = places;
 	     }
 	
-	     //Encapsulated data fields for EVENT class 
-	
-		private String eventName;
-		private String description;
-		private int duration;
-		private String eventType;
-		private String schedule;
-		private int ticketPrice;
+	   
 	
 	
 		/** Methods 
@@ -76,12 +81,7 @@ public class Event {
 		public void setSchedule(String schedule) {
 			this.schedule = schedule;
 		}
-		public int getTicketPrice() {
-			return ticketPrice;
-		}
-		public void setTicketPrice(int ticketPrice) {
-			this.ticketPrice = ticketPrice;
-		}
+		
 	
 		// Constructor 
 		
@@ -90,7 +90,7 @@ public class Event {
 		}
 		public Event(People people, Places places, String eventName,
 				String description, int duration, String eventType,
-				String schedule, int ticketPrice) {
+				String schedule) {
 			super();
 			this.people = people;
 			this.places = places;
@@ -99,7 +99,7 @@ public class Event {
 			this.duration = duration;
 			this.eventType = eventType;
 			this.schedule = schedule;
-			this.ticketPrice = ticketPrice;
+			
 		}
 
 	

@@ -10,6 +10,7 @@ public abstract class Places {
 	 *  Encapsulated data fields for PLACES class 
 	*/
 	
+	private int idPlace;
 	private String placeName;
 	private int capacity;
 	private String placeDescription;

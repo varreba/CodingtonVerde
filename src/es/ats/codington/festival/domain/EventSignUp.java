@@ -10,6 +10,7 @@ public class EventSignUp {
 	 *  Encapsulated data fields for EventSignUp class 
 	*/
 	
+	private int idSignUP;
 	private Event events;
 	private People people;
 	
