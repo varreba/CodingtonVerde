@@ -13,11 +13,15 @@ public class Building extends Places {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Building(String placeName, int capacity, String placeDescription,
-			String workingHours) {
-		super(placeName, capacity, placeDescription, workingHours);
+	public Building(int idPlace, String placeName, int capacity,
+			String placeDescription, String workingHours) {
+		super(idPlace, placeName, capacity, placeDescription, workingHours);
 		// TODO Auto-generated constructor stub
 	}
+
+	
+	
+	
 
 	
 }

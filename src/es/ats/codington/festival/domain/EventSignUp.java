@@ -18,6 +18,12 @@ public class EventSignUp {
 	 *  GETTER and SETTER methods for EVENT class
 	 */
 	 
+	public int getIdSignUP() {
+		return idSignUP;
+	}
+	public void setIdSignUP(int idSignUP) {
+		this.idSignUP = idSignUP;
+	}
 	public Event getEvents() {
 		return events;
 	}
@@ -33,16 +39,21 @@ public class EventSignUp {
 	
 	//Constructor
 	
+	public EventSignUp(int idSignUP, Event events, People people) {
+		super();
+		this.idSignUP = idSignUP;
+		this.events = events;
+		this.people = people;
+	}
 	public EventSignUp() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public EventSignUp(Event events, People people) {
-		super();
-		this.events = events;
-		this.people = people;
-	}
 	
+	
+	
+	
+		
 	
 	
 }

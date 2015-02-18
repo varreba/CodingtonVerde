@@ -50,6 +50,13 @@ public class Event {
 		/** Methods 
 		 *  GETTER and SETTER methods for EVENT class
 		 */
+	     
+	 	public int getIdEvent() {
+			return idEvent;
+		}
+		public void setIdEvent(int idEvent) {
+			this.idEvent = idEvent;
+		}
 	 
 		public String getEventName() {
 			return eventName;
@@ -82,25 +89,29 @@ public class Event {
 			this.schedule = schedule;
 		}
 		
-	
 		// Constructor 
 		
 		public Event() {
 			super();
+			// TODO Auto-generated constructor stub
 		}
-		public Event(People people, Places places, String eventName,
-				String description, int duration, String eventType,
-				String schedule) {
+		public Event(int idEvent, String eventName, String description,
+				int duration, String eventType, String schedule, People people,
+				Places places) {
 			super();
-			this.people = people;
-			this.places = places;
+			this.idEvent = idEvent;
 			this.eventName = eventName;
 			this.description = description;
 			this.duration = duration;
 			this.eventType = eventType;
 			this.schedule = schedule;
-			
+			this.people = people;
+			this.places = places;
 		}
+		
+	
+		
+		
 
 	
 	

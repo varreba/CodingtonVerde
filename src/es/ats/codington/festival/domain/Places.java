@@ -44,6 +44,12 @@ public abstract class Places {
 	public void setWorkingHours(String workingHours) {
 		this.workingHours = workingHours;
 	}
+	public int getIdPlace() {
+		return idPlace;
+	}
+	public void setIdPlace(int idPlace) {
+		this.idPlace = idPlace;
+	}
 	
 	//Constructor
 	
@@ -51,14 +57,20 @@ public abstract class Places {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Places(String placeName, int capacity, String placeDescription,
-			String workingHours) {
+	public Places(int idPlace, String placeName, int capacity,
+			String placeDescription, String workingHours) {
 		super();
+		this.idPlace = idPlace;
 		this.placeName = placeName;
 		this.capacity = capacity;
 		this.placeDescription = placeDescription;
 		this.workingHours = workingHours;
 	}
+	
+
+	
+	
+	
 	
 	
 }

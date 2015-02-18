@@ -14,5 +14,15 @@ public class Museum extends Building {
 		// TODO Auto-generated constructor stub
 	}
 
+	public Museum(int idPlace, String placeName, int capacity,
+			String placeDescription, String workingHours) {
+		super(idPlace, placeName, capacity, placeDescription, workingHours);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+	
+
 	
 }

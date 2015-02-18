@@ -5,18 +5,21 @@ package es.ats.codington.festival.domain;
  */
 
 public class Zoo extends Places {
-
-	//Constructor
 	
+	//Constructor
+
 	public Zoo() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Zoo(String placeName, int capacity, String placeDescription,
-			String workingHours) {
-		super(placeName, capacity, placeDescription, workingHours);
+	public Zoo(int idPlace, String placeName, int capacity,
+			String placeDescription, String workingHours) {
+		super(idPlace, placeName, capacity, placeDescription, workingHours);
 		// TODO Auto-generated constructor stub
 	}
 
+	
+	
+	
 }

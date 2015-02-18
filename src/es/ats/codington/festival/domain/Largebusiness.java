@@ -1,19 +1,19 @@
 package es.ats.codington.festival.domain;
 
 /**
- * THEATER  class inherits common behavior from BUILDING class
+ * LARGE BUSINESS class inherits common behavior from BUILDING class
  */
 
-public class Theater extends Building {
-	
-	//Constructor 
+public class Largebusiness extends Building {
 
-	public Theater() {
+	//Constructor
+	
+	public Largebusiness() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Theater(int idPlace, String placeName, int capacity,
+	public Largebusiness(int idPlace, String placeName, int capacity,
 			String placeDescription, String workingHours) {
 		super(idPlace, placeName, capacity, placeDescription, workingHours);
 		// TODO Auto-generated constructor stub
@@ -21,9 +21,7 @@ public class Theater extends Building {
 
 	
 	
-
 	
 	
-
 	
 }

@@ -11,5 +11,14 @@ public class Stadium extends Building {
 		// TODO Auto-generated constructor stub
 	}
 
+	public Stadium(int idPlace, String placeName, int capacity,
+			String placeDescription, String workingHours) {
+		super(idPlace, placeName, capacity, placeDescription, workingHours);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+	
 	
 }

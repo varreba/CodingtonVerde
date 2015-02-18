@@ -13,4 +13,13 @@ public class Park extends Places {
 		// TODO Auto-generated constructor stub
 	}
 
+	public Park(int idPlace, String placeName, int capacity,
+			String placeDescription, String workingHours) {
+		super(idPlace, placeName, capacity, placeDescription, workingHours);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+	
 }
