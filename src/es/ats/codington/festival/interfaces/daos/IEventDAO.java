@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.newcodingtoncity.model.domain.Event;
+import es.ats.codington.festival.domain.Event;
 
 public interface IEventDAO {
 	

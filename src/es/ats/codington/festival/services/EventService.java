@@ -1,7 +1,9 @@
 package es.ats.codington.festival.services;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import es.ats.codington.festival.domain.Event;
 import es.ats.codington.festival.interfaces.services.IEventSevice;
 
 public class EventService implements IEventSevice {

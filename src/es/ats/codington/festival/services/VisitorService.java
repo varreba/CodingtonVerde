@@ -1,5 +1,6 @@
 package es.ats.codington.festival.services;
 
+import es.ats.codington.festival.domain.Visitor;
 import es.ats.codington.festival.interfaces.services.IVisitorSevice;
 
 public class VisitorService implements IVisitorSevice {
@@ -55,7 +56,7 @@ public class VisitorService implements IVisitorSevice {
 	 */
 	public boolean updateVisitor(int visitorId, Visitor visitor) {
 		// TODO Auto-generated method stub
-		return null;
+		return false;
 	}
 
 }

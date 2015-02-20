@@ -1,5 +1,7 @@
 package es.ats.codington.festival.interfaces.services;
 
+import es.ats.codington.festival.domain.Visitor;
+
 /**
  * 
  * @author JAVA101_01

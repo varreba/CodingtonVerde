@@ -5,8 +5,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import es.ats.codington.festival.interfaces.daos.Event;
-import es.ats.codington.festival.interfaces.daos.EventSignUp;
+import es.ats.codington.festival.domain.Event;
+import es.ats.codington.festival.domain.EventSignUp;
 import es.ats.codington.festival.interfaces.daos.IEventSignUpDAO;
 
 public class EventSignUpDAO implements IEventSignUpDAO {

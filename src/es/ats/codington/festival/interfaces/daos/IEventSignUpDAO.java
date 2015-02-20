@@ -5,17 +5,18 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import es.ats.codington.festival.domain.Event;
+import es.ats.codington.festival.domain.EventSignUp;
+
 
 
 public interface IEventSignUpDAO {
 	/**
 	 * 
-	 * @param e
+	 * @param eventSignUp
 	 * @return number of rows affected if register was successful 
 	 */
-	public int registerVisitorForNewEventDAO(EventSignUp e);
-	
-	
+	public int registerVisitorForNewEventDAO(EventSignUp eventSignUp);
 	
 	/**
 	 * 
@@ -26,12 +27,12 @@ public interface IEventSignUpDAO {
 	
 	/**
 	 * 
-	 * @param e
+	 * @param eventSignUp
 	 * @return number of rows affected if unregister was successful
 	 * @throws SQLException
 	 * @throws ClassNotFoundException
 	 */
-	public int unregisterVisitorForEventDAO(EventSignUp e);
+	public int unregisterVisitorForEventDAO(EventSignUp eventSignUp);
 	
 	
 	/**
