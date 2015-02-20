@@ -1,9 +1,6 @@
 package es.ats.codington.festival.interfaces.services;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import es.ats.codington.festival.domain.Event;
 
 public interface IEventSevice {
 	
