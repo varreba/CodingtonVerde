@@ -1,16 +1,18 @@
 package es.ats.codington.festival.domain;
 
 /**
-*  POJO class to represent EVENT domain class
-*/
+ * POJO class to represent EVENT domain class
+ * @author: EquipoVerde
+ * @version: 1.0   Feb 18, 2015
+ * @see es.ats.codington.festival.domain.People
+ * 
+ */
 
 
 public class Event {
-
-	// Attributes
-
-	  //Encapsulated data fields for EVENT class 
-	
+	/**
+	 * Attributes of Event class 
+	 */
 			private int idEvent;
 			private String eventName;
 			private String description;
@@ -18,19 +20,53 @@ public class Event {
 			private String eventType;
 			private String schedule;
 			
-	
-	
-	
-	     // Declaring  People and Places variables. Both classes are now composed in People
+	/**
+	 * Declaring  People and Places variables. Both classes are now composed in People
+	 */
 	
 		private People people;
 		private Places places;
-	
-	
+		
+		/**
+		 * Default constructor	
+		 */
+		
+		public Event() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
+		
+		/**
+		 * Constructed using fields
+		 * @param idEvent
+		 * @param eventName
+		 * @param description
+		 * @param duration
+		 * @param eventType
+		 * @param schedule
+		 * @param people
+		 * @param places
+		 */
+		public Event(int idEvent, String eventName, String description,
+				int duration, String eventType, String schedule, People people,
+				Places places) {
+			super();
+			this.idEvent = idEvent;
+			this.eventName = eventName;
+			this.description = description;
+			this.duration = duration;
+			this.eventType = eventType;
+			this.schedule = schedule;
+			this.people = people;
+			this.places = places;
+		}
+		
 		
 		/** Methods 
-		 *  GETTER and SETTER methods for composed classes
+		 *  GETTER and SETTER methods for composed classes 
+		 * @return
 		 */
+		
 	     public People getPeople() {
 	    	 return people;
 	     }
@@ -89,25 +125,7 @@ public class Event {
 			this.schedule = schedule;
 		}
 		
-		// Constructor 
-		
-		public Event() {
-			super();
-			// TODO Auto-generated constructor stub
-		}
-		public Event(int idEvent, String eventName, String description,
-				int duration, String eventType, String schedule, People people,
-				Places places) {
-			super();
-			this.idEvent = idEvent;
-			this.eventName = eventName;
-			this.description = description;
-			this.duration = duration;
-			this.eventType = eventType;
-			this.schedule = schedule;
-			this.people = people;
-			this.places = places;
-		}
+	
 		
 	
 		
